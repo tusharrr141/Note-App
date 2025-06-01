@@ -17,7 +17,7 @@ const Paste = () => {
   // Filter pastes based on search term (by title or content)
   const filteredPastes = pastes.filter((paste) =>
     paste.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  ); // this is react note app
 
   return (
     <div className="w-full h-full bg-zinc-800 py-10 max-w-[1200px] mx-auto px-5 lg:px-0">
